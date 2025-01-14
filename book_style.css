@@ -1,6 +1,6 @@
 body {
     background-color: lavender;
-  }
+}
   
   h1 {
     color: black;
@@ -36,4 +36,53 @@ body {
     display: inline-block;
     font-size: 16px;
   }
+
+  .topnav {
+    background-color: #b37fd1;
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
   
+  .topnav a:hover {
+    background-color: lavender;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: #593071;
+    color: white;
+  }
+  
+.topnav .search-container {
+  float: right;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}

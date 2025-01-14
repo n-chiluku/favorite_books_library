@@ -3,20 +3,29 @@
 <head>
     <title>Romcoms</title>
     <link rel="stylesheet" href="book_style.css"> 
+    <script src="book_script.js"></script>
 </head>
 
 <body>
 
-    <button id="home" class="button" onclick="myFunction('home')">Home</button>      
-    <button id="fantasy" class="button" onclick="myFunction('fantasy')">Fantasy</button>
-    <button id="classics" class="button" onclick="myFunction('classics')">Classics</button>
-    <button id="litfic" class="button" onclick="myFunction('litfic')">Literary Fiction</button>
-    <button id="historicalfic" class="button" onclick="myFunction('historicalfic')">Historical Fiction</button>
-    <button id="scifi" class="button" onclick="myFunction('scifi')">Science Fiction</button>
-    <button id="romcoms" class="button">Romcoms</button>
-    <button id="thrillers" class="button" onclick="myFunction('thrillers')">Thrillers & Mysteries</button>
-    <button id="poetry" class="button" onclick="myFunction('poetry')">Poetry</button>
-    <button id="horror" class="button" onclick="myFunction('horror')">Horror</button>
+    <div class="topnav">
+        <a href="home.html">Home</a>
+        <a href="fantasy.html">Fantasy</a>
+        <a href="classics.html">Classics</a>
+        <a href="historicalfic.html">Historical Fiction</a>
+        <a href="litfic.html">Literary Fiction</a>
+        <a class="active" href="romcoms.html">Romcoms</a>
+        <a href="scifi.html">Science Fiction</a>
+        <a href="horror.html">Horror</a>
+        <a href="thrillers.html"> Thrillers</a>
+        <a href="poetry.html"> Poetry</a>
+        <div class="search-container">
+            <form onsubmit="searchBar()">
+              <input type="text" placeholder="Search.." id="userInput" name="search">
+              <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
     
     <h1>Favorite Romcoms</h1>
 
@@ -46,8 +55,5 @@
             <img src="images/beach_read.jpg" alt="beach_read" width="150" height="200">
         </div>
       </div>
-
-      <script src="book_script.js"></script>
-
 </body>
 </html>

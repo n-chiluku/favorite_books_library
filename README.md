@@ -4,12 +4,13 @@ This is an in-progress lightweight website I made for fun to showcase all my fav
 
 You can view the website like any other local html site: simply download the repository and open home.html to access it.
 
+Notes:
+1) Search bar is visible but not currently operable. 
 
 Future developments I plan to make, time permitting, include the following:
 
 1) Add a feature that will provide recommendation based on the books I've included and search criteria provided by the user (for example, a user could ask for fantasy books based on Chinese mythology, and I have plenty of recommendations for that. Or, they could ask for British classics published before Austen's time, which I could also filter to provide.)
 2) Potentially connect to my goodreads account to access all book data, or include more books outside of my favorites
 3) Standardize image sizes/reconfigure the display to be a little more pleasing on the eyes/experiment with different layouts
-4) Add a back button for each page
-5) Restructure the flow between pages/home page layout once more features are added
-    (tabs between pages)
+4) Operable search bar
+5) JSON based input for displaying books
