@@ -1,6 +1,6 @@
 # favorite_books_library
 
-This is an in-progress lightweight website I made for fun to showcase all my favorite books together. I read a lot, and I read practically anything and everything. I'm partial to fantasy, but I will enjoy and read from almost every genre. I love sharing recommendations with my friends, so this is an easy way for me to give people recommendations! Each genre has its own page which is accessible through a corresponding button on the home page. I'm actively working on the design and the style of this project and continuing to push new updates as I make them. I also update the books displayed whenever I have something new to add.
+This is an in-progress lightweight website I made for fun to showcase all my favorite books together. I read a lot, and I read practically anything and everything. I'm partial to fantasy, but I will enjoy and read from almost every genre. I love sharing recommendations with my friends, so this is an easy way for me to give people recommendations! Each genre has its own page which is accessible through a corresponding button on the home page. I'm actively working on the design and the style of this project and continuing to push new updates as I make them. I also update the books displayed whenever I have something new to add. More updates to come!!!
 
 You can view the website like any other local html site: simply download the repository and open home.html to access it.
 
