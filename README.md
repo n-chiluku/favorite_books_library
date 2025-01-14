@@ -12,3 +12,4 @@ Future developments I plan to make, time permitting, include the following:
 3) Standardize image sizes/reconfigure the display to be a little more pleasing on the eyes/experiment with different layouts
 4) Add a back button for each page
 5) Restructure the flow between pages/home page layout once more features are added
+    (tabs between pages)

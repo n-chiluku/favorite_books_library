@@ -7,80 +7,19 @@
 
 <body>
 
-    <h1>Nidhi's Library of Favorites</h1>   
-
-    <button id="fantasy" class="button">Fantasy</button>
-
-    <script type="text/javascript">
-        document.getElementById("fantasy").onclick = function () {
-            location.href = "fantasy.html";
-        };
-    </script>
-
-    <button id="classics" class="button" >Classics</button>
-
-    <script type="text/javascript">
-        document.getElementById("classics").onclick = function () {
-            location.href = "classics.html";
-        };
-    </script>
-
-    <button id="litfic" class="button" >Literary Fiction</button>
-
-    <script type="text/javascript">
-        document.getElementById("litfic").onclick = function () {
-            location.href = "litfic.html";
-        };
-    </script>
-
-    <button id="histfic" class="button" >Historical Fiction</button>
-
-    <script type="text/javascript">
-        document.getElementById("histfic").onclick = function () {
-            location.href = "historicalfic.html";
-        };
-    </script>
-
-    <button id="scifi" class="button" >Science Fiction</button>
-
-    <script type="text/javascript">
-        document.getElementById("scifi").onclick = function () {
-            location.href = "scifi.html";
-        };
-    </script>
-
-    <button id="romcoms" class="button" >Romcoms</button>
-
-    <script type="text/javascript">
-        document.getElementById("romcoms").onclick = function () {
-            location.href = "romcoms.html";
-        };
-    </script>
-
-    <button id="thrillers" class="button" >Thrillers & Mysteries</button>
-
-    <script type="text/javascript">
-        document.getElementById("thrillers").onclick = function () {
-            location.href = "thrillers.html";
-        };
-    </script>
-
-    <button id="poetry" class="button" >Poetry</button>
-
-    <script type="text/javascript">
-        document.getElementById("poetry").onclick = function () {
-            location.href = "poetry.html";
-        };
-    </script>
-
-    <button id="horror" class="button" >Horror</button>
-
-    <script type="text/javascript">
-        document.getElementById("horror").onclick = function () {
-            location.href = "horror.html";
-        };
-    </script>
+    <button id="home" class="button">Home</button>      
+    <button id="fantasy" class="button" onclick="myFunction('fantasy')">Fantasy</button>
+    <button id="classics" class="button" onclick="myFunction('classics')">Classics</button>
+    <button id="litfic" class="button" onclick="myFunction('litfic')">Literary Fiction</button>
+    <button id="historicalfic" class="button" onclick="myFunction('historicalfic')">Historical Fiction</button>
+    <button id="scifi" class="button" onclick="myFunction('scifi')">Science Fiction</button>
+    <button id="romcoms" class="button" onclick="myFunction('romcoms')">Romcoms</button>
+    <button id="thrillers" class="button" onclick="myFunction('thrillers')">Thrillers & Mysteries</button>
+    <button id="poetry" class="button" onclick="myFunction('poetry')">Poetry</button>
+    <button id="horror" class="button" onclick="myFunction('horror')">Horror</button>
 
     <script src="book_script.js"></script>
+
+    <h1>Nidhi's Library of Favorites</h1>   
 </body>
 </html>

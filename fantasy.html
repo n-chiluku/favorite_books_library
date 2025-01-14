@@ -7,13 +7,16 @@
 
 <body>
     
-    <button id="back" class="back" >Home</button>
-
-    <script type="text/javascript">
-        document.getElementById("back").onclick = function () {
-            location.href = "home.html";
-        };
-    </script>
+    <button id="home" class="button" onclick="myFunction('home')">Home</button>      
+    <button id="fantasy" class="button">Fantasy</button>
+    <button id="classics" class="button" onclick="myFunction('classics')">Classics</button>
+    <button id="litfic" class="button" onclick="myFunction('litfic')">Literary Fiction</button>
+    <button id="historicalfic" class="button" onclick="myFunction('historicalfic')">Historical Fiction</button>
+    <button id="scifi" class="button" onclick="myFunction('scifi')">Science Fiction</button>
+    <button id="romcoms" class="button" onclick="myFunction('romcoms')">Romcoms</button>
+    <button id="thrillers" class="button" onclick="myFunction('thrillers')">Thrillers & Mysteries</button>
+    <button id="poetry" class="button" onclick="myFunction('poetry')">Poetry</button>
+    <button id="horror" class="button" onclick="myFunction('horror')">Horror</button>
 
     <h1>Favorite Fantasy</h1>
 

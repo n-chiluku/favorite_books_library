@@ -1,4 +1,3 @@
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Paragraph changed.";
-  }
-  
+function myFunction(button_id) {
+    location.href = button_id + ".html";
+}
